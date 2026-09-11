@@ -1,0 +1,6 @@
+{
+  "name": "Kanto Trivia Masters",
+  "description": "Arabic trivia competition game for friends and family with categories, difficulty tiers, wallet, and score keeping",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
