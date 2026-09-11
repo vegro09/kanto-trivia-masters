@@ -85,14 +85,11 @@ export function CoinStore({
         <div className="space-y-4">
           {/* الرصيد الحالي */}
           <div className="panel-light flex items-center justify-between p-4">
-            <div>
+            <div className="text-center mr-[115px]">
               <span className="text-xs font-bold text-kanto-black/70">محفظة العملات المتاحة</span>
-              <p className="font-display text-2xl font-bold text-kanto-black" dir="ltr">
+              <p className="font-display text-2xl font-bold text-kanto-black text-center" dir="ltr">
                 {coins} $
               </p>
-            </div>
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg border border-kanto-black/20 bg-kanto-black font-display text-lg font-bold text-cream">
-              🪙
             </div>
           </div>
 
